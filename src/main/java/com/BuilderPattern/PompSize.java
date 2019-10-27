@@ -36,4 +36,12 @@ public class PompSize {
         this.depth = depth;
     }
 
+    @Override
+    public String toString() {
+        return "PompSize{" +
+                "width=" + width +
+                ", height=" + height +
+                ", depth=" + depth +
+                '}';
+    }
 }
